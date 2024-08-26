@@ -19,6 +19,7 @@ requirements:
     - python >=3.8
     - pip
     - poetry
+    - setuptools
   run:
     - python >=3.8
     - httpx >=0.20.0
