@@ -1,5 +1,5 @@
 {% set name = "qdrant-client" %}
-{% set version = "1.11.3" %}
+{% set version = "1.12.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/qdrant_client-{{ version }}.tar.gz
-  sha256: 5a155d8281a224ac18acef512eae2f5e9a0907975d52a7627ec66fa6586d0285
+  sha256: f443db39988aa6ff7c7a605770084ddaca8fdb5f8b22f77c10e661bdf0974cda
 
 build:
   noarch: python
